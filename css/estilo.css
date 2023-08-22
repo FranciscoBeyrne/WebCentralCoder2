@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif; /* Fuente para el cuerpo */
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.menu li {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-right: 1px solid white;
+  flex-grow: 1;
+  text-align: center;
+  transition: background-color 0.3s;
+  font-family: 'Source Sans 3', sans-serif; /* Fuente para títulos */
+}
+
+.menu li a:hover {
+  color: blue;
+  background-color: yellow;
+}
+
+.menu li a:not(:hover) {
+  color: yellow;
+}
+
+.header {
+  height: 150px;
+  background-image: url(/11087803_1558604271070755_2619377120582368701_o.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  min-height: 100px;
+  background-color: yellow;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.sec1 {
+  background-image: url(/DJI_0127-2-scaled.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.video.video1,
+.video.video2 {
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 100%;
+}
+
+.footer {
+  padding: 10px;
+  background-color: rgb(2, 2, 62);
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Raleway', sans-serif; /* Fuente para detalles */
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapa {
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
